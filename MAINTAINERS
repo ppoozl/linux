@@ -13953,6 +13953,7 @@ MOTORCOMM PHY DRIVER
 M:	Peter Geis <pgwipeout@gmail.com>
 L:	netdev@vger.kernel.org
 S:	Maintained
+F:	Documentation/devicetree/bindings/net/motorcomm,yt8xxx.yaml
 F:	drivers/net/phy/motorcomm.c
 
 MOXA SMARTIO/INDUSTIO/INTELLIO SERIAL CARD

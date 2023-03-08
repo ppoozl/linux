@@ -254,3 +254,9 @@
 		};
 	};
 };
+
+&usb0 {
+	starfive,usb2-only;
+	dr_mode = "peripheral";
+	status = "okay";
+};

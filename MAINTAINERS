@@ -19704,6 +19704,13 @@ S:	Supported
 F:	Documentation/devicetree/bindings/rng/starfive*
 F:	drivers/char/hw_random/starfive-trng.c
 
+STARFIVE JH71X0 USB PHY DRIVERS
+M:	Emil Renner Berthing <kernel@esmil.dk>
+M:	Minda Chen <minda.chen@starfivetech.com>
+S:	Maintained
+F:	Documentation/devicetree/bindings/phy/starfive,jh7110-usb*.yaml
+F:	drivers/usb/cdns3/cdns3-starfive.c
+
 STATIC BRANCH/CALL
 M:	Peter Zijlstra <peterz@infradead.org>
 M:	Josh Poimboeuf <jpoimboe@kernel.org>

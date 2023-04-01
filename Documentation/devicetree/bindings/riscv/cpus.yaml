@@ -28,16 +28,17 @@ properties:
     oneOf:
       - items:
           - enum:
-              - sifive,rocket0
               - sifive,bullet0
               - sifive,e5
               - sifive,e7
               - sifive,e71
-              - sifive,u74-mc
-              - sifive,u54
-              - sifive,u74
+              - sifive,rocket0
+              - sifive,s7
               - sifive,u5
+              - sifive,u54
               - sifive,u7
+              - sifive,u74
+              - sifive,u74-mc
               - canaan,k210
           - const: riscv
       - items:
